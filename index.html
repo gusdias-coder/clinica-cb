@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#193e35">
+  <title>Clínica Cb · Cuidado veterinário na Cidade Baixa</title>
+  <meta name="description" content="Conheça a proposta de site da Clínica Cb: atendimento veterinário para cães e gatos na Cidade Baixa, Porto Alegre. Serviços, horários e contato pelo WhatsApp.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Clínica Cb · Perto de você e do seu pet">
+  <meta property="og:description" content="Cuidado veterinário para cães e gatos na Cidade Baixa, Porto Alegre. Proposta demonstrativa de site.">
+  <meta property="og:url" content="https://gusdias-coder.github.io/clinica-cb/">
+  <meta property="og:image" content="https://gusdias-coder.github.io/clinica-cb/assets/images/social-card.jpg">
+  <meta property="og:image:alt" content="Clínica Cb: cuidado veterinário na Cidade Baixa, Porto Alegre. Proposta demonstrativa.">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://gusdias-coder.github.io/clinica-cb/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/manrope.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="assets/fonts/cormorant.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-ne" viewBox="0 0 24 24"><path d="M6 18 18 6M6 6h12v12"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="m12 21-8-8C-3 6 6-2 12 5c6-7 15 1 8 8Z"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-cross" viewBox="0 0 24 24"><path d="M9 3h6v6h6v6h-6v6H9v-6H3V9h6Z"/></symbol>
+    <symbol id="i-surgery" viewBox="0 0 24 24"><path d="m4 20 4-4M6 14l4 4 10-10a3 3 0 0 0-4-4Z"/></symbol>
+    <symbol id="i-test" viewBox="0 0 24 24"><path d="M8 3h8M10 3v6L4 19c-.6 1 .1 2 1 2h14c1 0 1.6-1 1-2L14 9V3M7 15h10"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="m12 2 9 4v6c0 5-9 10-9 10S3 17 3 12V6Z"/><path d="m8 12 3 3 5-6"/></symbol>
+    <symbol id="i-bed" viewBox="0 0 24 24"><path d="M3 5v16M21 12v9M3 17h18M3 12h18v5M8 8h10a3 3 0 0 1 3 3v1"/><circle cx="7" cy="9" r="2"/></symbol>
+    <symbol id="i-tooth" viewBox="0 0 24 24"><path d="M12 5C5-1 1 5 4 12c2 5 2 10 5 9 1-1 0-7 3-7s2 6 3 7c3 1 3-4 5-9 3-7-1-13-8-7Z"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l4 2"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="m5 3 4 4-2 3c2 3 4 5 7 7l3-2 4 4c-2 6-9 1-13-3S-1 5 5 3Z"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 11a9 9 0 0 1-13 8l-5 2 1-5A9 9 0 1 1 21 11Z"/><path d="m8 7 2 2-1 2 3 3 2-1 2 2"/></symbol>
+    <symbol id="i-paw" viewBox="0 0 24 24"><path d="M5 18c0-4 4-7 7-7s7 3 7 7c0 3-4 4-7 2-3 2-7 1-7-2Z"/><ellipse cx="5" cy="8" rx="2" ry="3"/><ellipse cx="12" cy="5" rx="2" ry="3"/><ellipse cx="19" cy="8" rx="2" ry="3"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+  </svg>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Clínica Cb, início">
+        <span class="brand-mark"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-paw"/></svg></span>
+        <span class="brand-type">Clínica <b>Cb</b><small>MEDICINA VETERINÁRIA</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-controls="main-nav" aria-expanded="false" aria-label="Abrir menu"><span></span><span></span></button>
+      <nav id="main-nav" class="main-nav" aria-label="Navegação principal">
+        <a href="#sobre">A clínica</a><a href="#servicos">Serviços</a><a href="#galeria">Nosso espaço</a><a href="#contato">Contato</a>
+        <a class="button button-small" data-whatsapp href="https://wa.me/5551994221484" target="_blank" rel="noopener noreferrer">Vamos conversar <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-ne"/></svg></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section id="inicio" class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> NA CIDADE BAIXA, EM PORTO ALEGRE</p>
+        <h1>Cuidar é estar<br>perto. <em>Em cada<br>fase da vida.</em></h1>
+        <p class="hero-description">Seu pet faz parte da família. Por aqui, a saúde de cães e gatos recebe atenção, carinho e um cuidado que começa na escuta.</p>
+        <div class="hero-actions"><a class="button" data-whatsapp href="https://wa.me/5551994221484" target="_blank" rel="noopener noreferrer">Falar com a clínica <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a><a class="text-link" href="#servicos">Conhecer os serviços <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-ne"/></svg></a></div>
+        <a class="hero-rating" href="#avaliacoes"><span class="rating-stars" aria-label="Avaliação">★★★★★</span><strong>4,8</strong><span>no Google · 198 avaliações<sup>*</sup></span></a>
+      </div>
+      <div class="hero-art">
+        <span class="art-orbit" aria-hidden="true"></span><span class="art-spark" aria-hidden="true">✳</span>
+        <div class="hero-photo"><img src="assets/images/foto-01.webp" width="1054" height="1400" alt="Gato preto e branco aconchegado em uma manta, em foto fornecida da Clínica Cb" fetchpriority="high"><span class="photo-note"><span class="tiny-dot"></span> Cada vida, um cuidado único.</span></div>
+        <div class="dog-inset"><img src="assets/images/foto-05.webp" width="788" height="1400" alt="Cachorro de pelagem clara com peitoral vermelho em um gramado"><span>Para eles.<br><i>Com você.</i></span></div>
+        <span class="hero-label"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-heart"/></svg> Cães & gatos</span>
+      </div>
+    </section>
+
+    <div class="care-strip">
+      <div class="container strip-inner"><div><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-heart"/></svg><span><strong>Carinho em cada encontro</strong><small>Atenção para o pet e para você</small></span></div><div><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-cross"/></svg><span><strong>Da prevenção ao tratamento</strong><small>Cuidado em diferentes fases da vida</small></span></div><div><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-pin"/></svg><span><strong>No coração da Cidade Baixa</strong><small>Rua José do Patrocínio, 621</small></span></div></div>
+    </div>
+
+    <section id="sobre" class="section container about">
+      <div class="about-photos"><img class="about-main" src="assets/images/foto-02.webp" width="629" height="1400" loading="lazy" alt="Interior da Clínica Cb, com corredor de acesso e prateleiras"><div class="about-side"><span class="vertical-label">UM LUGAR DE CUIDADO</span><img src="assets/images/foto-08.webp" width="628" height="1400" loading="lazy" alt="Fachada da Clínica Veterinária Cb na Rua José do Patrocínio"><span class="location-tag"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-pin"/></svg> Cidade Baixa · POA</span></div></div>
+      <div class="about-copy"><p class="eyebrow">BEM-VINDO À CLÍNICA CB</p><h2>Uma clínica de bairro.<br>Um cuidado <em>que aproxima.</em></h2><p>Na Cidade Baixa, a Clínica Cb é um ponto de cuidado para cães e gatos — e de orientação para quem divide a vida com eles.</p><p>De uma consulta de rotina aos momentos que pedem mais atenção, você encontra serviços veterinários e um canal direto para conversar sobre as necessidades do seu pet.</p><div class="about-signature"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-paw"/></svg><span>Porque cuidar deles também<br>é cuidar de quem os ama.</span></div><a class="text-link" href="#contato">Encontre a clínica <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-arrow"/></svg></a></div>
+    </section>
+
+    <section id="servicos" class="services-section section">
+      <div class="container"><div class="section-heading"><div><p class="eyebrow">SAÚDE, EM TODOS OS MOMENTOS</p><h2>O que seu pet precisa.<br>O cuidado <em>que ele merece.</em></h2></div><p>Da prevenção aos cuidados que pedem mais atenção. Converse com a equipe sobre indicação, preparo e disponibilidade.</p></div>
+        <div class="service-grid">
+          <article class="service-card"><div class="service-top"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-cross"/></svg><span>01</span></div><h3>Consultas & acompanhamento</h3><p>Avaliação clínica geral e orientação sobre a saúde do seu cão ou gato.</p><a data-whatsapp data-subject="consultas veterinárias" href="https://wa.me/5551994221484" target="_blank" rel="noopener noreferrer" aria-label="Consultar disponibilidade para consultas veterinárias">Conversar sobre consultas <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-ne"/></svg></a></article>
+          <article class="service-card"><div class="service-top"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-surgery"/></svg><span>02</span></div><h3>Cirurgias & castrações</h3><p>Procedimentos cirúrgicos e castrações, com avaliação prévia e orientações de cuidado.</p><a data-whatsapp data-subject="cirurgias e castrações" href="https://wa.me/5551994221484" target="_blank" rel="noopener noreferrer">Consultar procedimentos <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-ne"/></svg></a></article>
+          <article class="service-card"><div class="service-top"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-test"/></svg><span>03</span></div><h3>Exames & testes</h3><p>Exames laboratoriais e testes específicos, incluindo testes rápidos para FIV/FeLV.</p><a data-whatsapp data-subject="exames e testes" href="https://wa.me/5551994221484" target="_blank" rel="noopener noreferrer">Perguntar sobre exames <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-ne"/></svg></a></article>
+          <article class="service-card"><div class="service-top"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-shield"/></svg><span>04</span></div><h3>Vacinas & prevenção</h3><p>Vacinação e vermifugação para acompanhar as necessidades de cada fase da vida.</p><a data-whatsapp data-subject="vacinação e vermifugação" href="https://wa.me/5551994221484" target="_blank" rel="noopener noreferrer">Conversar sobre prevenção <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-ne"/></svg></a></article>
+          <article class="service-card"><div class="service-top"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-bed"/></svg><span>05</span></div><h3>Internação & suporte</h3><p>Suporte e monitoramento para pets que precisam de cuidados contínuos.</p><a data-whatsapp data-subject="internação veterinária" href="https://wa.me/5551994221484" target="_blank" rel="noopener noreferrer">Consultar disponibilidade <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-ne"/></svg></a></article>
+          <article class="service-card"><div class="service-top"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-tooth"/></svg><span>06</span></div><h3>Saúde bucal</h3><p>Profilaxia dentária e limpeza de tártaro, conforme avaliação veterinária.</p><a data-whatsapp data-subject="profilaxia dentária" href="https://wa.me/5551994221484" target="_blank" rel="noopener noreferrer">Saber mais sobre o cuidado <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-ne"/></svg></a></article>
+        </div>
+        <div class="urgency-callout"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-phone"/></svg><div><h3>Seu pet precisa de atendimento urgente?</h3><p>Ligue para confirmar a disponibilidade da equipe antes de vir à clínica.</p></div><a class="button button-outline" href="tel:+5551994221484">Ligar agora <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-ne"/></svg></a></div>
+      </div>
+    </section>
+
+    <section id="galeria" class="section container gallery-section"><div class="section-heading"><div><p class="eyebrow">UM POUCO DO NOSSO DIA A DIA</p><h2>Espaço para cuidar.<br>Histórias <em>para acolher.</em></h2></div><p>Alguns registros do espaço e dos pets.<br>Toque em uma imagem para ver os detalhes.</p></div>
+      <div class="gallery-grid">
+        <button class="gallery-item" data-photo="assets/images/foto-03.webp" data-caption="Um dos pets nas fotos fornecidas da Clínica Cb" aria-label="Ampliar foto de gato"><img src="assets/images/foto-03.webp" loading="lazy" width="788" height="1400" alt="Gato de pelagem tigrada usando uma roupinha escura"><span>Pequenas vidas, grandes histórias <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-plus"/></svg></span></button>
+        <button class="gallery-item" data-photo="assets/images/foto-07.webp" data-caption="Interior da Clínica Cb" aria-label="Ampliar foto do interior da clínica"><img src="assets/images/foto-07.webp" loading="lazy" width="629" height="1400" alt="Vista do interior da Clínica Cb"><span>Nosso espaço <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-plus"/></svg></span></button>
+        <button class="gallery-item" data-photo="assets/images/foto-05.webp" data-caption="Um dos pets nas fotos fornecidas da Clínica Cb" aria-label="Ampliar foto de cachorro"><img src="assets/images/foto-05.webp" loading="lazy" width="788" height="1400" alt="Cachorro de pelagem clara sentado na grama"><span>Companhia que faz bem <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-plus"/></svg></span></button>
+        <button class="gallery-item" data-photo="assets/images/foto-04.webp" data-caption="Prateleiras no espaço da Clínica Cb" aria-label="Ampliar foto das prateleiras da clínica"><img src="assets/images/foto-04.webp" loading="lazy" width="629" height="1400" alt="Prateleiras com acessórios e produtos no interior da Clínica Cb"><span>Por dentro da clínica <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-plus"/></svg></span></button>
+      </div>
+    </section>
+
+    <section id="avaliacoes" class="review-section"><div class="container review-inner"><div class="review-score"><span class="rating-stars" aria-hidden="true">★★★★★</span><strong>4,8<span>/ 5</span></strong><p>198 avaliações no Google<sup>*</sup></p></div><div class="review-copy"><p class="eyebrow">CONFIANÇA QUE VEM DE QUEM CONHECE</p><h2>O carinho também<br>aparece <em>nas avaliações.</em></h2><p>Conheça os relatos de quem já passou pela Clínica Cb e confira as avaliações diretamente no Google.</p><a class="text-link" href="https://www.google.com/maps/search/?api=1&amp;query=Cl%C3%ADnica+Cb+Rua+Jos%C3%A9+do+Patroc%C3%ADnio+621+Porto+Alegre" target="_blank" rel="noopener noreferrer">Ver a clínica no Google <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-ne"/></svg></a><small class="review-disclaimer">* Nota e quantidade fornecidas para esta proposta. Não são atualizadas automaticamente.</small></div></div></section>
+
+    <section class="section container faq-section" id="duvidas"><div class="faq-heading"><p class="eyebrow">ANTES DA VISITA</p><h2>Vamos tirar<br>suas <em>dúvidas?</em></h2><p>Algumas informações para facilitar o próximo passo.</p><a class="text-link" data-whatsapp href="https://wa.me/5551994221484" target="_blank" rel="noopener noreferrer">Perguntar à equipe <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-ne"/></svg></a></div><div class="faq-list">
+      <details><summary>Como solicito uma consulta?<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-plus"/></svg></summary><p>Entre em contato pelo WhatsApp ou telefone (51) 99422-1484. A equipe poderá informar os horários disponíveis e orientar sua visita. O contato pelo site não confirma um agendamento.</p></details>
+      <details><summary>Quais animais a clínica atende?<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-plus"/></svg></summary><p>A clínica atende cães e gatos. Para dúvidas sobre um serviço específico, converse diretamente com a clínica.</p></details>
+      <details><summary>O que levar na primeira consulta?<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-plus"/></svg></summary><p>Se disponíveis, leve a carteira de vacinação, exames anteriores e informações sobre medicamentos em uso. Confirme com a equipe se há preparo específico para o atendimento solicitado.</p></details>
+      <details><summary>A clínica atende urgências 24 horas?<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-plus"/></svg></summary><p>O atendimento segue os horários apresentados abaixo, sem anúncio de plantão 24 horas. Em caso de urgência, ligue para confirmar a disponibilidade. Se a clínica estiver fechada ou não puder atender, procure um serviço veterinário de emergência disponível.</p></details>
+      <details><summary>Como consultar programas de castração gratuita?<svg class="icon" aria-hidden="true" focusable="false"><use href="#i-plus"/></svg></summary><p>A participação em programas municipais depende das regras, dos cadastros e das vagas disponíveis. Consulte o canal 156 da Prefeitura de Porto Alegre para informações atuais; o site não realiza inscrições nem garante atendimento gratuito.</p><a href="https://prefeitura.poa.br/gca/noticias/prefeitura-abre-inscricoes-para-castracao-de-caes-e-gatos" target="_blank" rel="noopener noreferrer">Consultar publicação da Prefeitura <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-ne"/></svg></a></details>
+    </div></section>
+
+    <section id="contato" class="contact-section"><div class="container contact-inner"><div class="contact-copy"><p class="eyebrow">ESTAMOS AQUI, PERTINHO</p><h2>O próximo passo<br>é uma <em>conversa.</em></h2><p>Conte o que seu pet precisa. A equipe orienta sobre atendimento, serviços e disponibilidade.</p><a class="button button-cream" data-whatsapp href="https://wa.me/5551994221484" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chat"/></svg> Chamar no WhatsApp <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-ne"/></svg></a><a class="contact-phone" href="tel:+5551994221484">(51) 99422-1484</a><a class="instagram-link" href="https://www.instagram.com/clinicacidbaixa/" target="_blank" rel="noopener noreferrer">Acompanhe @clinicacidbaixa <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-ne"/></svg></a></div><div class="contact-card"><div class="contact-card-top"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-pin"/></svg><span>CIDADE BAIXA · PORTO ALEGRE</span></div><h3>Venha nos conhecer.</h3><p>Rua José do Patrocínio, 621<br>Cidade Baixa · Porto Alegre, RS<br>CEP 90050-000</p><a class="text-link" href="https://www.google.com/maps/dir/?api=1&amp;destination=Cl%C3%ADnica+Cb+Rua+Jos%C3%A9+do+Patroc%C3%ADnio+621+Porto+Alegre" target="_blank" rel="noopener noreferrer">Traçar rota no Google Maps <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-ne"/></svg></a><div class="hours"><h4><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-clock"/></svg> Horários de atendimento</h4><dl><div><dt>Segunda a sexta</dt><dd>9h às 18h</dd></div><div><dt>Sábado</dt><dd>9h às 14h</dd></div><div><dt>Domingo</dt><dd>Fechado</dd></div></dl><small>Confirme o atendimento em feriados e a disponibilidade por telefone.</small></div></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-top"><a class="brand" href="#inicio"><span class="brand-mark"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-paw"/></svg></span><span class="brand-type">Clínica <b>Cb</b><small>MEDICINA VETERINÁRIA</small></span></a><p>Um cuidado próximo.<br>Uma vida inteira de companhia.</p><a class="text-link" href="#inicio">Voltar ao início <svg class="icon" aria-hidden="true" focusable="false"><use href="#i-ne"/></svg></a></div><div class="container footer-bottom"><span>Proposta demonstrativa de site para a Clínica Cb.</span><span>Design de apresentação · <span id="year">2026</span></span></div></footer>
+  <a class="floating-whatsapp" data-whatsapp href="https://wa.me/5551994221484" target="_blank" rel="noopener noreferrer" aria-label="Conversar com a Clínica Cb pelo WhatsApp"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-chat"/></svg><span>Vamos conversar?</span></a>
+  <dialog id="photo-dialog" aria-labelledby="photo-caption"><button class="dialog-close" type="button" aria-label="Fechar foto"><svg class="icon" aria-hidden="true" focusable="false"><use href="#i-close"/></svg></button><img id="dialog-photo" alt=""><p id="photo-caption"></p></dialog>
+</body>
+</html>
