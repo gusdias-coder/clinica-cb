@@ -24,7 +24,12 @@ Verificação realizada em 8 de outubro de 2026.
 
 ## Publicação
 
-Arquivos preparados para `gusdias-coder/clinica-cb`, branch `main`, raiz, GitHub Pages. A publicação e a verificação do endereço público dependem da autenticação na conta. Este relatório não declara que o site já foi publicado.
+Publicado em 8 de outubro de 2026 no repositório público `gusdias-coder/clinica-cb`, branch `main`, raiz, via GitHub Pages.
+
+- Site: https://gusdias-coder.github.io/clinica-cb/
+- Repositório: https://github.com/gusdias-coder/clinica-cb
+- Publicação inicial concluída com sucesso no commit `7d5f6d83a017a1f5e1c0faab76ff43401b9baf60`.
+- Página pública conferida no navegador: título, CSS, fontes, fotos principais e mensagens de WhatsApp carregados; sem rolagem horizontal na conferência.
 
 ## Limites
 
